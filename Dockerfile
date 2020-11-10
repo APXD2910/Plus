@@ -51,7 +51,7 @@ RUN apt-get install -y\
     p7zip-full \
     tree
 
-apt-get autoremove --purge
+RUN apt-get autoremove --purge
 
 RUN pip3 install --upgrade pip setuptools 
 RUN if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi 
