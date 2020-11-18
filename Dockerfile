@@ -49,7 +49,8 @@ RUN apt-get install -y --no-install-recommends\
     procps \
     policykit-1 \
     p7zip-full \
-    tree
+    tree \
+    unzip
 
 RUN apt-get autoremove --purge
 RUN pip3 install --upgrade pip setuptools 
