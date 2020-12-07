@@ -30,8 +30,8 @@ RUN apt-get update && apt upgrade -y && apt-get install -y --no-install-recommen
     mediainfo \
     wget \
     python3.9 \
-    python3-dev \
-    python3-pip \
+    python3.9-dev \
+    python3.9-pip \
     libreadline-dev \
     zipalign \
     ffmpeg \
