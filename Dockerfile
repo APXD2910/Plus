@@ -37,7 +37,6 @@ RUN apt-get install -y --no-install-recommends\
     python3-pip \
     libreadline-dev \
     zipalign \
-    sqlite \
     ffmpeg \
     libsqlite3-dev \
     zlib1g-dev \
