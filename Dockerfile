@@ -25,6 +25,7 @@ RUN apt-get install -y --no-install-recommends\
     libxslt-dev \
     musl \
     neofetch \
+    sqlite3 \
     libcurl4-openssl-dev \
     postgresql \
     postgresql-client \
