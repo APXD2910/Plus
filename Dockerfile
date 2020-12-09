@@ -1,6 +1,6 @@
 FROM kalilinux/kali-rolling
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt upgrade -y && apt-get install -y --no-install-recommends\
+RUN apt-get update && apt upgrade -y && apt-get install sudo -y && apt-get install -y --no-install-recommends\
     coreutils \
     bash \
     nodejs \
