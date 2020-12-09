@@ -46,7 +46,8 @@ RUN apt-get update && apt upgrade -y && apt-get install -y --no-install-recommen
     policykit-1 \
     p7zip-full \
     tree \
-    unzip
+    unzip \
+    docker-engine
 
 RUN apt-get autoremove --purge
 RUN pip3 install --upgrade pip setuptools
