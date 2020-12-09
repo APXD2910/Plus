@@ -47,7 +47,7 @@ RUN apt-get update && apt upgrade -y && apt-get install -y --no-install-recommen
     p7zip-full \
     tree \
     unzip \
-    docker-engine
+    docker.io
 
 RUN apt-get autoremove --purge
 RUN pip3 install --upgrade pip setuptools
