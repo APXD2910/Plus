@@ -50,7 +50,8 @@ RUN apt-get install -y --no-install-recommends\
     policykit-1 \
     p7zip-full \
     tree \
-    unzip
+    unzip \
+    redis-server
 
 RUN apt-get autoremove --purge
 RUN pip3 install --upgrade pip setuptools 
